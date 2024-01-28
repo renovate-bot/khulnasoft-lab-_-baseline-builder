@@ -1,0 +1,15 @@
+---
+info:
+  title: Baseline Builder
+  description: Builder & packer via the GitHub Connector
+  x-cortex-git:
+    github:
+      alias: khulnasoft
+      repository: khulnasoft-lab/baseline-builder
+  x-cortex-tag: baseline-builder
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: builder
+openapi: 3.0.1
+servers:
+- url: "/"
