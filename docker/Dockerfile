@@ -1,7 +1,7 @@
 # To build the dev environment.
 # docker build -t khulnasoft-lab/build:payload-lab .
 
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 
 ENV DEBIAN_FRONTEND noninteractive
 
